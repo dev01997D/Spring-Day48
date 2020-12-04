@@ -1,0 +1,8 @@
+package com.example.controller;
+
+public class HelloWorld {
+	@RequestMapping(value = { "", "/", "/home" })
+	public String sayHello() {
+		return "Hello World!!";
+	}
+}
